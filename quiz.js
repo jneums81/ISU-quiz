@@ -44,8 +44,12 @@ function endQuiz() {
     quizContainer.innerHTML = `
     <h2>Quiz Complete!</h2>
     <p>Your score: ${score} / ${questions.length}</p>
-    <button onclick="startQuiz()">Restart Quiz</button>
+    <button onclick="restartQuiz()">Restart Quiz</button>
     `;
+}
+
+function restartQuiz() {
+    startQuiz(); // Call the function that resets the quiz
 }
 
 const questions = [
