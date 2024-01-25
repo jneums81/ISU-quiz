@@ -6,11 +6,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: red;
+    background-color: #990000;
 }
 
 #quiz-container {
-    background-color: yellow;
+    background-color: gold;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
